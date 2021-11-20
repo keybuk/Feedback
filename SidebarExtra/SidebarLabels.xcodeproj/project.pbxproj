@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2521D8026785F9100386499 /* SidebarLabelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D7226785F9000386499 /* SidebarLabelsApp.swift */; };
+		D2521D8126785F9100386499 /* SidebarLabelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D7226785F9000386499 /* SidebarLabelsApp.swift */; };
+		D2521D8226785F9100386499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D7326785F9000386499 /* ContentView.swift */; };
+		D2521D8326785F9100386499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D7326785F9000386499 /* ContentView.swift */; };
+		D2521D8426785F9100386499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2521D7426785F9100386499 /* Assets.xcassets */; };
+		D2521D8526785F9100386499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2521D7426785F9100386499 /* Assets.xcassets */; };
+		D2521D8F26785FC500386499 /* AppSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D8E26785FC500386499 /* AppSidebar.swift */; };
+		D2521D9026785FC500386499 /* AppSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D8E26785FC500386499 /* AppSidebar.swift */; };
+		D2521D922678615100386499 /* FlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D912678615100386499 /* FlightsView.swift */; };
+		D2521D932678615100386499 /* FlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D912678615100386499 /* FlightsView.swift */; };
+		D2521D952678627900386499 /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D942678627900386499 /* HotelsView.swift */; };
+		D2521D962678627900386499 /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D942678627900386499 /* HotelsView.swift */; };
+		D2521D982678629700386499 /* CarRentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D972678629700386499 /* CarRentalsView.swift */; };
+		D2521D992678629700386499 /* CarRentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D972678629700386499 /* CarRentalsView.swift */; };
+		D2521D9B2678638900386499 /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D9A2678638900386499 /* DestinationsView.swift */; };
+		D2521D9C2678638900386499 /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D9A2678638900386499 /* DestinationsView.swift */; };
+		D2521D9E267863C200386499 /* HawaiiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D9D267863C200386499 /* HawaiiView.swift */; };
+		D2521D9F267863C200386499 /* HawaiiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521D9D267863C200386499 /* HawaiiView.swift */; };
+		D2521DA1267864CA00386499 /* MiamiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521DA0267864CA00386499 /* MiamiView.swift */; };
+		D2521DA2267864CA00386499 /* MiamiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2521DA0267864CA00386499 /* MiamiView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2521D7226785F9000386499 /* SidebarLabelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarLabelsApp.swift; sourceTree = "<group>"; };
+		D2521D7326785F9000386499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2521D7426785F9100386499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2521D7926785F9100386499 /* SidebarLabels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarLabels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2521D7F26785F9100386499 /* SidebarLabels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarLabels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2521D8E26785FC500386499 /* AppSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebar.swift; sourceTree = "<group>"; };
+		D2521D912678615100386499 /* FlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsView.swift; sourceTree = "<group>"; };
+		D2521D942678627900386499 /* HotelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
+		D2521D972678629700386499 /* CarRentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentalsView.swift; sourceTree = "<group>"; };
+		D2521D9A2678638900386499 /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
+		D2521D9D267863C200386499 /* HawaiiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawaiiView.swift; sourceTree = "<group>"; };
+		D2521DA0267864CA00386499 /* MiamiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiamiView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2521D7626785F9100386499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2521D7C26785F9100386499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2521D6C26785F9000386499 = {
+			isa = PBXGroup;
+			children = (
+				D2521D7126785F9000386499 /* Shared */,
+				D2521D7A26785F9100386499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2521D7126785F9000386499 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D2521D7226785F9000386499 /* SidebarLabelsApp.swift */,
+				D2521D7326785F9000386499 /* ContentView.swift */,
+				D2521D8E26785FC500386499 /* AppSidebar.swift */,
+				D2521D9A2678638900386499 /* DestinationsView.swift */,
+				D2521D912678615100386499 /* FlightsView.swift */,
+				D2521D942678627900386499 /* HotelsView.swift */,
+				D2521D972678629700386499 /* CarRentalsView.swift */,
+				D2521D9D267863C200386499 /* HawaiiView.swift */,
+				D2521DA0267864CA00386499 /* MiamiView.swift */,
+				D2521D7426785F9100386499 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D2521D7A26785F9100386499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2521D7926785F9100386499 /* SidebarLabels.app */,
+				D2521D7F26785F9100386499 /* SidebarLabels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2521D7826785F9100386499 /* SidebarLabels (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2521D8826785F9100386499 /* Build configuration list for PBXNativeTarget "SidebarLabels (iOS)" */;
+			buildPhases = (
+				D2521D7526785F9100386499 /* Sources */,
+				D2521D7626785F9100386499 /* Frameworks */,
+				D2521D7726785F9100386499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SidebarLabels (iOS)";
+			productName = "SidebarLabels (iOS)";
+			productReference = D2521D7926785F9100386499 /* SidebarLabels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2521D7E26785F9100386499 /* SidebarLabels (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2521D8B26785F9100386499 /* Build configuration list for PBXNativeTarget "SidebarLabels (macOS)" */;
+			buildPhases = (
+				D2521D7B26785F9100386499 /* Sources */,
+				D2521D7C26785F9100386499 /* Frameworks */,
+				D2521D7D26785F9100386499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SidebarLabels (macOS)";
+			productName = "SidebarLabels (macOS)";
+			productReference = D2521D7F26785F9100386499 /* SidebarLabels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2521D6D26785F9000386499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D2521D7826785F9100386499 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D2521D7E26785F9100386499 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D2521D7026785F9000386499 /* Build configuration list for PBXProject "SidebarLabels" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2521D6C26785F9000386499;
+			productRefGroup = D2521D7A26785F9100386499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2521D7826785F9100386499 /* SidebarLabels (iOS) */,
+				D2521D7E26785F9100386499 /* SidebarLabels (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2521D7726785F9100386499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2521D8426785F9100386499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2521D7D26785F9100386499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2521D8526785F9100386499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2521D7526785F9100386499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2521D922678615100386499 /* FlightsView.swift in Sources */,
+				D2521D9E267863C200386499 /* HawaiiView.swift in Sources */,
+				D2521D9B2678638900386499 /* DestinationsView.swift in Sources */,
+				D2521DA1267864CA00386499 /* MiamiView.swift in Sources */,
+				D2521D982678629700386499 /* CarRentalsView.swift in Sources */,
+				D2521D8226785F9100386499 /* ContentView.swift in Sources */,
+				D2521D8026785F9100386499 /* SidebarLabelsApp.swift in Sources */,
+				D2521D952678627900386499 /* HotelsView.swift in Sources */,
+				D2521D8F26785FC500386499 /* AppSidebar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2521D7B26785F9100386499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2521D932678615100386499 /* FlightsView.swift in Sources */,
+				D2521D9F267863C200386499 /* HawaiiView.swift in Sources */,
+				D2521D9C2678638900386499 /* DestinationsView.swift in Sources */,
+				D2521DA2267864CA00386499 /* MiamiView.swift in Sources */,
+				D2521D992678629700386499 /* CarRentalsView.swift in Sources */,
+				D2521D8326785F9100386499 /* ContentView.swift in Sources */,
+				D2521D8126785F9100386499 /* SidebarLabelsApp.swift in Sources */,
+				D2521D962678627900386499 /* HotelsView.swift in Sources */,
+				D2521D9026785FC500386499 /* AppSidebar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2521D8626785F9100386499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2521D8726785F9100386499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2521D8926785F9100386499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79P776W2YF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.SidebarLabels;
+				PRODUCT_NAME = SidebarLabels;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2521D8A26785F9100386499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79P776W2YF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.SidebarLabels;
+				PRODUCT_NAME = SidebarLabels;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2521D8C26785F9100386499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79P776W2YF;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.SidebarLabels;
+				PRODUCT_NAME = SidebarLabels;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2521D8D26785F9100386499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79P776W2YF;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsplit.SidebarLabels;
+				PRODUCT_NAME = SidebarLabels;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2521D7026785F9000386499 /* Build configuration list for PBXProject "SidebarLabels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2521D8626785F9100386499 /* Debug */,
+				D2521D8726785F9100386499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2521D8826785F9100386499 /* Build configuration list for PBXNativeTarget "SidebarLabels (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2521D8926785F9100386499 /* Debug */,
+				D2521D8A26785F9100386499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2521D8B26785F9100386499 /* Build configuration list for PBXNativeTarget "SidebarLabels (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2521D8C26785F9100386499 /* Debug */,
+				D2521D8D26785F9100386499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2521D6D26785F9000386499 /* Project object */;
+}
