@@ -1,3 +1,5 @@
+FB9182070
+
 Please see the attached sample project that demonstrates the issue. The project contains a simple demonstration of an app aiming for a two-pane appearance with a Sidebar, constructed using tagged NavigationLink and a common selections. The selection is set to the default view to be displayed.
 
 1. Run this project on an iPad in Portrait mode.
