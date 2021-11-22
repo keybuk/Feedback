@@ -1,3 +1,5 @@
+FB9191598
+
 Please see the attached sample project that demonstrates the issue:
 
 If the View ends with an #endif”, e.g. because the last modifier on a view is specific to another platform, the Preview/Simulator is unable to compile the app because I assume it’s modifying the source in some way that makes a syntax error.
