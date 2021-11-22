@@ -1,3 +1,5 @@
+FB9191591, fixed Beta 4
+
 Please see the attached sample project that demonstrates the issue.
 
 The above message is printed on console, and the pushing of the navigation view is unreliable (e.g. simulator it gets stuck halfway sometimes)
