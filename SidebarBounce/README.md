@@ -1,3 +1,5 @@
+FB9182105
+
 Please see the attached sample project that demonstrates the issue.
 
 The project is similar to FB9182070, but slightly different. It contains a simple demonstration of an app aiming for a THREE-pane appearance with Sidebar on macOS, and an iPad experience where two panes are visible with a Sidebar accessible by swiping from the left.
