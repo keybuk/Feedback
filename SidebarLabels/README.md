@@ -1,3 +1,5 @@
+FB9185792
+
 Please see the sample application attached to this bug.
 
 It builds a two-pane app with a Sidebar using the same approach given at the WWDC code-along, where the Sidebar uses a List with a binding to a selection that is also shared by the DetailView.
